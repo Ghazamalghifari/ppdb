@@ -52,6 +52,7 @@
                     <ul class="nav navbar-nav">
                          @if (Auth::check())
                         <li><a href="{{ url('/home') }}">Dashboard</a></li> 
+                        <li><a href="{{ url('admin/siswa') }}">Siswa</a></li> 
                         @endif
                     </ul>
 

@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Role;
 use App\User;
+use App\SpecialisClass;
 
 class UserSeeder extends Seeder
 {
@@ -13,6 +14,44 @@ class UserSeeder extends Seeder
      */
     public function run()
     { 
+
+    	// Membuat Specialis Class
+	    $leaderClass = new SpecialisClass();
+	    $leaderClass->nama_class = "Leader Ship";
+	    $leaderClass->isi_class = "-";
+	    $leaderClass->save();
+
+    	// Membuat Specialis Class
+	    $leaderClass = new SpecialisClass();
+	    $leaderClass->nama_class = "Programmer Class";
+	    $leaderClass->isi_class = "-";
+	    $leaderClass->save();
+
+    	// Membuat Specialis Class
+	    $leaderClass = new SpecialisClass();
+	    $leaderClass->nama_class = "Journalis Class";
+	    $leaderClass->isi_class = "-";
+	    $leaderClass->save();
+
+    	// Membuat Specialis Class
+	    $leaderClass = new SpecialisClass();
+	    $leaderClass->nama_class = "Tahfidzul Class";
+	    $leaderClass->isi_class = "-";
+	    $leaderClass->save();
+
+    	// Membuat Specialis Class
+	    $leaderClass = new SpecialisClass();
+	    $leaderClass->nama_class = "Chef Class";
+	    $leaderClass->isi_class = "-";
+	    $leaderClass->save();
+
+    	// Membuat Specialis Class
+	    $leaderClass = new SpecialisClass();
+	    $leaderClass->nama_class = "Athlate Class";
+	    $leaderClass->isi_class = "-";
+	    $leaderClass->save();
+
+
     	// Membuat role admin
 	    $adminRole = new Role();
 	    $adminRole->name = "admin";

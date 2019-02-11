@@ -53,6 +53,8 @@
                          @if (Auth::check())
                         <li><a href="{{ url('/home') }}">Dashboard</a></li> 
                         <li><a href="{{ url('admin/siswa') }}">Siswa</a></li> 
+                        <li><a href="{{ url('admin/post') }}">Artikel</a></li> 
+                        <li><a href="{{ url('admin/user') }}">User</a></li> 
                         @endif
                     </ul>
 
@@ -100,6 +102,14 @@
 <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
 <script src="{{ asset('js/selectize.min.js') }}"></script>
 <script src="{{ asset('js/custom.js') }}"></script>
+<script src="{{asset('ckeditor/ckeditor.js')}}"></script>
+<script>
+  var konten = document.getElementById("konten");
+    CKEDITOR.replace(konten,{
+    language:'en-gb'
+  });
+  CKEDITOR.config.allowedContent = true;
+</script>
 @yield('scripts')
 </body>
 </html>

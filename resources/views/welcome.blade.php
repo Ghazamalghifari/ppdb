@@ -1,91 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  @extends('layouts.app_new')
 
-        <title>Laravel</title>
+  @section('content')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway';
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
+          <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title">Let&apos;s Join Now</h2> 
+            </div> 
+          </div>
+          <div class="features">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="info">
+                      <div class="icon icon-warning">
+                        <i class="material-icons">library_books</i>
+                      </div>
+                      <h4 class="info-title">Pendidikan</h4>
+                      <p> Semua serdik dibekali ilmu fardu ain, yaitu alquran hadits, aqidah akhlaq, fiqih. Selain itu keilmuan yang bersifat dinamis kontem porer seperti kewirausahaan, IT & Bahasa Arab dan Inggris, akan diberikan secara ber kesinambungan.</p><br>
+                    </div>
+                  </div>
                 </div>
-            @endif
+              </div>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="info">
+                      <div class="icon icon-info">
+                        <i class="material-icons">record_voice_over</i>
+                      </div>
+                      <h4 class="info-title">Potensi/Bakat</h4>
+                      <p> Potensi dan bakat serdik akan di tumbuhkan secara maximal, melalui pembelajaran di dalam kelas life skill. Siswa dibekali pengetahuan, keterampilan, praktek lapangan dan magang di lembaga atau instansi mitra Qordhova. </p><br>
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="info">
+                      <div class="icon icon-danger">
+                        <i class="material-icons">school</i>
+                      </div>
+                      <h4 class="info-title">Didikan</h4>
+                      <p>Dididik dan dibina oleh guru-guru, mentor atau pelatih yang ahli dalam bidangnya secara disiplin humanis, moralis dan profesional, tanpa meninggalkan kaidah kaidah illahiah, yang menjadi pijakan pembelajaran SMAIT Quran Qordhova.</p>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="info">
+                      <div class="icon icon-success">
+                        <i class="material-icons">monetization_on</i>
+                      </div>
+                      <h4 class="info-title">Biaya</h4>
+                      <p> Biaya terjangkau dan menjangkau semua kalangan, yang berniat kuat memenuhi panggilan Allah untuk belajar ilmu fardhu ain & fardhu Kifayah, dalam rangka menjaga iman, memperbaiki psikologim dan menumbuhkan potensi.</p> <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </body>
-</html>
+
+          <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title">Visi Misi</h2> 
+              <h3 style=" font-style: italic;">"Menjadi Lembaga Pendidikan Modern Penumbuh Generasi Pemimpin Yang Adil, BerAdab dan BerKeahlian Sesuai Syariat ISLAM."</h3>
+            </div> 
+
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="card">
+                <div class="card-body">
+                    <h4 class="title"><center>Menyalakan semangat <br> cinta belajar dan beragama</center></h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="card">
+                <div class="card-body"> 
+                    <h4 class="title"><center>Menumbuhkan kedisplinan diri ketaatan dalam iman dan kompotensi serdik secara berkala</center></h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="card">
+                <div class="card-body"> 
+                    <h4 class="title"><center>Memberikan layanan pendidikan maksimal kepada serdik secara humanis dan syari</center></h4><br>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="card">
+                <div class="card-body"> 
+                    <h4 class="title"><center>Memandu serdik memasuki era digital (revolusi industri 4.0) dengan ilmu, iman dan amal serta keterampilan hidup adaptif yang produktif</center></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           
+                <div class="card">
+                  <div class="card-body"> 
+                      <h4 class="info-title">Daftar Siswa Yang Telah Mendaftar</h4> 
+                      {!! $html->table(['class'=>'table-striped table']) !!} 
+                  </div>
+                </div> <br>
+  @endsection

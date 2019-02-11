@@ -10,17 +10,46 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+ 
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/ppdb', function () {
+    return view('ppdb');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index'); 
+Route::get('/home', 'HomeController@home'); 
+Route::get('/blog', 'HomeController@blog'); 
+Route::get('/leader-class', 'HomeController@leaderclass'); 
+Route::get('/programmer-class', 'HomeController@programmerclass'); 
+Route::get('/journalis-class', 'HomeController@journalisclass'); 
+Route::get('/tahfidzul-class', 'HomeController@tahfidzulclass'); 
+Route::get('/chef-class', 'HomeController@chefclass'); 
+Route::get('/athlate-class', 'HomeController@athlateclass'); 
+
+Route::post('/ppdb/daftar',[ 
+'as' => 'ppdb.daftar',
+'uses' => 'HomeController@daftar'
+] );
+
+Route::post('/ppdb/daftar-siswa',[ 
+'as' => 'ppdb.daftar_siswa',
+'uses' => 'HomeController@daftar_siswa'
+] );
+
+Route::post('/ppdb/bukti-pembayaran',[ 
+'as' => 'ppdb.bukti_pembayaran',
+'uses' => 'HomeController@bukti_pembayaran'
+] );
 
 Route::group(['prefix'=>'admin', 'middleware'=>['auth']], function () {
 
-Route::resource('siswa', 'SiswaController');
+Route::resource('siswa', 'SiswaController');	
+Route::resource('post', 'PostControllers');	
+Route::resource('user', 'UserControllers');	
+Route::resource('specialis_class', 'SpecialisClassControllers');	
 
+Route::get('/pendaftaran-siswa', 'AdminControllers@pendaftaran'); 
+ 
 });

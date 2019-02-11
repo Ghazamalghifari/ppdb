@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'PPDB 2018',
+    'name' => 'SMAIT Quran Qordhova',
 
     /*
     |--------------------------------------------------------------------------

@@ -47,9 +47,21 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth']], function () {
 
 Route::resource('siswa', 'SiswaController');	
 Route::resource('post', 'PostControllers');	
-Route::resource('user', 'UserControllers');	
+Route::resource('master_users', 'UserControllers');	
 Route::resource('specialis_class', 'SpecialisClassControllers');	
 
 Route::get('/pendaftaran-siswa', 'AdminControllers@pendaftaran'); 
  
+Route::get('master_users/filterotoritas/{id}',[
+	'middleware' => ['auth'],
+	'as' => 'master_users.filter_otoritas',
+	'uses' => 'UserControllers@filter_otoritas'
+	]);
+   
+	Route::get('master_users/reset/{id}',[
+	'middleware' => ['auth','role:admin'],
+	'as' => 'master_users.reset',
+	'uses' => 'UserControllers@reset'
+	]);
+
 });

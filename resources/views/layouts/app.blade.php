@@ -54,7 +54,7 @@
                         <li><a href="{{ url('/home') }}">Dashboard</a></li> 
                         <li><a href="{{ url('admin/siswa') }}">Siswa</a></li> 
                         <li><a href="{{ url('admin/post') }}">Artikel</a></li> 
-                        <li><a href="{{ url('admin/user') }}">User</a></li> 
+                        <li><a href="{{ url('admin/master_users') }}">User</a></li> 
                         @endif
                     </ul>
 

@@ -8,6 +8,7 @@ use Yajra\Datatables\Datatables;
 use DateTime;
 use App\DataSiswa;
 use App\User;
+use App\Post;
 use App\BuktiPendaftaran;
 use App\SpecialisClass;
 use Auth;
@@ -96,7 +97,7 @@ class HomeController extends Controller
 
         return view('home',['data_siswa' => $data_siswa,'data_siswa1' => $data_siswa1]);
     }
-
+ 
     public function ppdb()
     {
         return view('ppdb');
@@ -243,6 +244,8 @@ class HomeController extends Controller
 
     public function blog()
     {
-        return view('blog');
+    $datablog = Post::select(['id','judul_artikel','gambar_artikel','isi_artikel','created_at']); 
+
+        return view('blog',['datablog' => $datablog]); 
     }
 }

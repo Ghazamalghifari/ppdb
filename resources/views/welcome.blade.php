@@ -116,3 +116,7 @@
                   </div>
                 </div> <br>
   @endsection
+
+@section('scripts')
+{!! $html->scripts() !!}
+@endsection

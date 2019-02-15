@@ -107,8 +107,95 @@
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title">VALUES</h2> 
+            </div> 
+              <div class="col-md-6 ml-auto mr-auto">
+              <div class="card">
+                <div class="card-body"> 
+                   <h5 class="title">Keimanan, Ketaqwaan, Rendah Hati, Tahu Malu,<br> Komunikasi dan Kolaboratif</h5>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-6 ml-auto mr-auto">
+              <div class="card">
+                <div class="card-body"> 
+                   <h5 class="title">Gotong Royong, Musyawarah, Kritis, Empati,<br> Sopan dan Santun</h5>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
 
-           
+          <div class="row">
+            <div class="col-md-2">
+              <h1>TOP 6</h1>  
+            </div>
+            <div class="col-md-10">
+               <p><a style="font-size: 279%">TALENT & LIFE SKIL</a> <br><br> <a style="font-size: 350%"><b>SPECIALIS CLASS</b></a></p>
+            </div>
+          </div>
+            <div class="row" > 
+              <div class="col-sm-4">
+                <div class="card" style="padding-bottom: 1%">
+                  <div class="card-body"> 
+                      <img class="card-img-top" src="gambar_artikel/a2iYpXVd8ePLfEQLwdu4yVO76fQX4fM1DKNK7bH4.jpg" alt="Card image cap"> 
+                      <br><br>
+                      <p><b>Leader Class</b> adalah Kelas Belajar Tafaqquhu Fiddin Generasi Pemimpin</p><br><br>
+                  </div> 
+                </div> 
+              </div> 
+
+              <div class="col-sm-4" >
+                <div class="card">
+                  <div class="card-body"> 
+                      <img class="card-img-top" src="gambar_artikel/a2iYpXVd8ePLfEQLwdu4yVO76fQX4fM1DKNK7bH4.jpg" alt="Card image cap">  
+                      <br><br>
+                      <p><b>Programmer Class</b> adalah Kelas pembelajaran calon Programmer, yang berbakat dan hobby buat program, Ayo join disini.</p>
+                  </div> 
+                </div>
+              </div> 
+ 
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body"> 
+                      <img class="card-img-top" src="gambar_artikel/a2iYpXVd8ePLfEQLwdu4yVO76fQX4fM1DKNK7bH4.jpg" alt="Card image cap">  
+                      <br><br>
+                      <p><b>Journalist Class</b> adalah Kelas pembelajaran calon Jurnalis, yang berpotensi jadi wartawan bisa join disini.</p><br>
+                  </div> 
+                </div>
+              </div> 
+
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body"> 
+                      <img class="card-img-top" src="gambar_artikel/a2iYpXVd8ePLfEQLwdu4yVO76fQX4fM1DKNK7bH4.jpg" alt="Card image cap">  
+                      <br><br>
+                      <p><b>Tahfidzhul Quran Class</b> adalah Kelas pembelajaran khusus calon hafidzul quran,Mari Gabung.</p>
+                  </div> 
+                </div>
+              </div> 
+
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body"> 
+                      <img class="card-img-top" src="gambar_artikel/a2iYpXVd8ePLfEQLwdu4yVO76fQX4fM1DKNK7bH4.jpg" alt="Card image cap">  
+                      <br><br>
+                      <p><b>Chef Class</b> adalah Kelas pembelajaran Berbakat dan Hobby tata boga bisa join disini.</p><br>
+                  </div> 
+                </div>
+              </div> 
+
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body"> 
+                      <img class="card-img-top" src="gambar_artikel/a2iYpXVd8ePLfEQLwdu4yVO76fQX4fM1DKNK7bH4.jpg" alt="Card image cap">  
+                      <br><br>
+                      <p><b>Athlete Class</b> adalah Kelas pembelajaran calon Atlet, khusus yang hobby Karate dan Futsal.</p>
+                  </div> 
+                </div>
+              </div> 
+            </div> 
                 <div class="card">
                   <div class="card-body"> 
                       <h4 class="info-title">Daftar Siswa Yang Telah Mendaftar</h4> 
